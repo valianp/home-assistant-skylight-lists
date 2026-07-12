@@ -1,0 +1,31 @@
+enable_todo_sync:
+  name: Enable to-do synchronization
+  description: Synchronize the Skylight grocery list with another Home Assistant to-do entity.
+  fields:
+    entry_id:
+      required: true
+      selector:
+        text:
+    target_entity_id:
+      required: true
+      selector:
+        entity:
+          domain: todo
+
+disable_todo_sync:
+  name: Disable to-do synchronization
+  description: Remove the optional linked to-do list while keeping Skylight Lists and its to-do entities available.
+  fields:
+    entry_id:
+      required: true
+      selector:
+        text:
+
+sync_now:
+  name: Synchronize now
+  description: Immediately reconcile the Skylight Grocery List and its linked to-do list without changing their order.
+  fields:
+    entry_id:
+      required: true
+      selector:
+        text:

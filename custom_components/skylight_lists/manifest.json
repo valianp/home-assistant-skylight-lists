@@ -1,0 +1,10 @@
+{
+  "domain": "skylight_lists",
+  "name": "Skylight Lists",
+  "codeowners": ["@valianp"],
+  "config_flow": true,
+  "documentation": "https://github.com/valianp/home-assistant-skylight-lists",
+  "integration_type": "hub",
+  "iot_class": "cloud_polling",
+  "version": "0.3.0"
+}

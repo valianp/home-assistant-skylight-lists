@@ -1,0 +1,24 @@
+{
+  "title": "Skylight Lists",
+  "config": {
+    "step": {
+      "user": {
+        "data": {
+          "username": "Skylight email address",
+          "password": "Skylight password",
+          "frame_id": "Frame ID"
+        },
+        "data_description": {
+          "frame_id": "The numeric ID of the Skylight frame that owns the lists."
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Unable to sign in to Skylight with these credentials.",
+      "cannot_connect": "Unable to reach Skylight."
+    },
+    "abort": {
+      "already_configured": "This Skylight account and frame are already configured."
+    }
+  }
+}
